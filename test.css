@@ -2,10 +2,16 @@
   box-sizing: border-box;
 }
 
-.box {
-  box-sizing: border-box;
+.flex-container {
+  display: flex;
+  justify-content: center;
+}
+
+.item {
   width: 100px;
   height: 100px;
   background-color: blueviolet;
-  padding: 16px 42px 16px 42px;
+  padding: 10px;
+  border: 6px solid salmon;
+  margin: 10px;
 }
